@@ -21,7 +21,7 @@ For detection process software used is jupyter and programming language is pytho
 ### Training Method
 We first given the dataset consisting of fractured and non- fractured images. The Preprocessing step is performed i.e., conversion of image to gray scale. The Sobel edge detection is used to detect the edges of image in horizontal and vertical direction. The gradient of images is calculated and obtained as a single image.
 The GLCM feature extraction is used to extract the texture features of the image. These features are contrast, correlation, energy, entropy, asm. These values are stored in the database and labelled with their train name. The data is divided with 70% train data and 30% test data. By using contour function the extreme points of bones are identified. By using the angles as condition, the given image is predicted whether it is hand or leg.
-### Model Evaluation\
+### Model Evaluation
 The model was evaluated by calculating the mean Average Precision, mean Average Recall and F1-score metrics. The metric is calculated on the taken dataset. The procedure to calculate the accuracy of the object detection metric varied based on the dataset. The accuracy obtained is around 92%.
 ## Conclusion
 For detecting the fracture automatically this project is been developed so that it will be helpful for the report generation. We summarize the following points:
