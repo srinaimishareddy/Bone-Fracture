@@ -1,4 +1,4 @@
-# Bone-Fracture
+# BONE-FRACTURE
 ## Abstract 
 Disabilities in human bone can be identified by medical image. Radiologist scans the bone of human and prints the medical image. They prepare the reports based on the medical image. This takes much time to complete the whole process. In order to avoid this, an automated abnormality detection system using medical images is been proposed. This work mainly focuses on fracture detection. It takes data as input and digitalizes the images by scanning. The pre-processing techniques are performed on medical images and the data is divided into two datasets that is trained dataset and test dataset. Later edge detection, feature extraction and classification are performed. Finally, this work is tested with test dataset and accuracy of the work is calculated.
 ## Problem Statement
